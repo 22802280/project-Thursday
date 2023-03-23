@@ -1,3 +1,5 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -133,5 +135,42 @@ header{
 }
 
 .about-desc{
-    
+    font-size: 14px;
+    color: #d1d1d1;
+    line-height: 1.8;
+    max-width: 240px;    
+}
+
+.audio-holder{
+    width: 540px;
+}
+
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: #fff;
+}
+
+.audio-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 34px;
+}
+
+.audio-block{
+    background-color: #242424;
+    display: flex;
+    margin-top: 61px;
 }
