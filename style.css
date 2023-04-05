@@ -157,7 +157,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #FEBE02;
     color: #fff;
 }
 
@@ -215,4 +215,8 @@ header{
 
 .mob-btn{
     display: none;
+}
+
+#wave{
+    width: 100%;
 }
